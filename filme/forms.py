@@ -3,6 +3,9 @@ from .models import Usuario
 from django import forms
 
 
+class ForHomepage(forms.Form):
+    email = forms.EmailField(label=False)
+
 class CriarContaForm(UserCreationForm):
     email = forms.EmailField()
 
