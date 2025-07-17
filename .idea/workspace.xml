@@ -6,8 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="efd65062-2d68-4251-8e05-bf93c08d6380" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hashflix/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/hashflix/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/filme/templates/homepage.html" beforeDir="false" afterPath="$PROJECT_DIR$/filme/templates/homepage.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

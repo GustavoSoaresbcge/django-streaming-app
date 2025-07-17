@@ -30,9 +30,9 @@ HomePage Hashflix
                 Quer começar? Coloque seu e-mail abaixo para acessar.
             </h4>
 
-            <div class="w-full flex justify-center">
-                <div class="flex justify-center items-center w-11/12 md:w-10/12">
-                    <form method="post" class="w-6/12 justify-center">
+            <div class="w-full flex justify-center px-4">
+                <div class="flex flex-col sm:flex-row justify-center items-center w-full sm:w-10/12 gap-2">
+                    <form method="post" class="w-full sm:w-8/12">
                         {% csrf_token %}
                         <div class="flex flex-grow items-stretch">
                             {{ form }}
@@ -60,13 +60,13 @@ HomePage Hashflix
             </h5>
         </div>
         <div class='md:w-1/2 flex justify-center items-center'>
-            <img src="{% static 'images/tv.png' %}" class="w-8/12" alt="">
+            <img src="{% static 'images/tv.png' %}" class="w-full mas-x-md h-auto" alt="">
         </div>
     </section>
 
     <section class='flex flex-col md:flex-row items-center border-gray-900 border-b-8' style="min-height: 70vh;">
         <div class='md:w-1/2 flex justify-center items-center '>
-            <img src="{% static 'images/mobile-0819.jpg' %}" class="w-8/12" alt="">
+            <img src="{% static 'images/mobile-0819.jpg' %}" class="w-full mas-x-md h-auto" alt="">
         </div>
 
         <div class="md:w-1/2 flex flex-col justify-center text-center md:text-left p-5 md:p-10">
@@ -90,15 +90,15 @@ HomePage Hashflix
             </h5>
         </div>
         <div class='md:w-1/2 flex justify-center items-center'>
-            <img src="{% static 'images/netflix_kid.png' %}" class="w-8/12" alt="">
+            <img src="{% static 'images/netflix_kid.png' %}" class="w-full mas-x-md h-auto" alt="">
         </div>
     </section>
     <footer class=" px-5 py-10 ">
-        <ul class="flex justify-between items-center">
+        <ul class="flex flex-col sm:flex-row justify-between items-center gap-2 text-sm text-center">
 
             <li>&copy; 2025</li>
             <li> Feito com Python (Django)</li>
-            <li>Hashtag</li>
+            <li>Gustavo Soares</li>
         </ul>
     </footer>
 
