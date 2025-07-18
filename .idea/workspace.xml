@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="efd65062-2d68-4251-8e05-bf93c08d6380" name="Changes" comment="" />
+    <list default="true" id="efd65062-2d68-4251-8e05-bf93c08d6380" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/filme/templates/homefilmes.html" beforeDir="false" afterPath="$PROJECT_DIR$/filme/templates/homefilmes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/fundo_studio.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/fundo_studio.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/staticfiles/images/fundo_studio.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/staticfiles/images/fundo_studio.jpg" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

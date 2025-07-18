@@ -7,7 +7,7 @@ HomeFilmes Hashflix
 {% block content %}
 
 <main class='bg-primary_black min-h-screen w-full'>
-    <section class="h-screen relative bg-no-repeat pb-8 pl-6 flex  items-end bg-cover" style="background-image: url('{{ object.thumb.url }}');">
+    <section class="h-screen relative bg-no-repeat pb-8 pl-6 flex items-end bg-cover border-gray-600 border-b-8" style="background-image: url('{{ filme_destaque.thumb.url }}');">
         <div>
             <h2 class="text-6xl font-semibold text-white my-4">
                 {{ object.titulo }}
@@ -27,7 +27,8 @@ HomeFilmes Hashflix
             </div>
         </div>
     </section>
-    <section class='bg-primary_black flex justify-center py-10'>
+
+    <section class='bg-primary_black bg-blend-multiply flex justify-center py-10'  style="background-image: url('{% static 'images/fundo_studio.jpg' %}');">
         <div class="p-8 w-10/12 relative" >
             <h2 class="text-gray-200 text-3xl font-medium">
                 Descrição
@@ -56,7 +57,7 @@ HomeFilmes Hashflix
         </div>
     </section>
 
-    <section class='bg-primary_black flex justify-center py-10'>
+    <section class='bg-primary_black bg-blend-multiply flex justify-center py-10'  style="background-image: url('{% static 'images/fundo_studio.jpg' %}');">
         <div class="p-8 w-10/12 relative" >
             <h2 class="text-gray-200 text-2xl font-medium">
                 Relacionados
