@@ -20,7 +20,20 @@ Fazer Login
          <small>
             Não tem uma conta ainda? <p><a href="{% url 'filme:criarconta' %}">Clique aqui para criar uma conta</a></p>
          </small>
-         </div>
+
+         <form id="login_automatico" method="post" action="{% url 'login' %}" style="display: none;">
+            {% csrf_token %}
+            <input type="text" name="username" value="teste01">
+            <input type="password" name="password" value="mudarsenha">
+            <button
+            type="button"
+            class="bg-purple-900 py-1 my-2 px-3 w-full text-white md:text-lg rounded-md"
+            onclick="document.getElementById('login_automatico').submit()">
+               Entrar como Usuário de Teste
+            </button>
+         </form>
+
+      </div>
    </header>
 
 <footer class="px-5 py-10">
