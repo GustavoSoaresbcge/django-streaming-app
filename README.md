@@ -12,6 +12,7 @@ Este projeto foi criado para fins educacionais e encontra-se concluído.
 - Administração de dados via Django Admin
 - Configuração de arquivos estáticos e mídia
 - Templates HTML organizados com base reutilizável
+- Adaptação simples para o acesso Mobile
 - Integração com Tailwind CSS e estruturação com Bootstrap 5
 - Navegação dinâmica entre páginas e visualização de detalhes
 - Views baseadas em funções e classes
